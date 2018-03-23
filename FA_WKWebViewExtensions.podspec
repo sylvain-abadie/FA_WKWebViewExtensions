@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FA_WKWebViewExtensions'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FA_WKWebViewExtensions.'
+  s.version          = '1.0.0'
+  s.summary          = 'Several WKWebview Extensions'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  These extensions allow to programmatically open the keyboard when focusing on an element and to remove any acessory view associated to the WKWebView.
+  DESC
 
-  s.homepage         = 'https://github.com/Sylvain Abadie/FA_WKWebViewExtensions'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/sylvain-abadie/FA_WKWebViewExtensions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sylvain Abadie' => 'sylvain.abadie@frontapp.com' }
-  s.source           = { :git => 'https://github.com/Sylvain Abadie/FA_WKWebViewExtensions.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/sylvain-abadie/FA_WKWebViewExtensions', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'FA_WKWebViewExtensions/Classes/**/*'
   
@@ -36,7 +34,7 @@ TODO: Add long description of the pod here.
   #   'FA_WKWebViewExtensions' => ['FA_WKWebViewExtensions/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
