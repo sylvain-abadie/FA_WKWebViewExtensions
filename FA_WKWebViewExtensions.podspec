@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FA_WKWebViewExtensions'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Several WKWebview Extensions'
 
   s.description      = <<-DESC
